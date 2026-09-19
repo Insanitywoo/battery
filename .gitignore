@@ -1,0 +1,106 @@
+﻿# Local research data and reference papers
+/当前可用真实数据集/
+/data/
+/datasets/
+/raw_data/
+/reference_papers/
+/references/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.mat
+*.parquet
+*.feather
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+site/
+
+# Training, experiment and generated artifacts
+artifacts/
+checkpoints/
+runs/
+outputs/
+wandb/
+tensorboard/
+logs/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+.cache/
+tmp/
+temp/
+
+# IDE and OS metadata
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX generated files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Local agent/tool state
+.codex/
+.agents/
